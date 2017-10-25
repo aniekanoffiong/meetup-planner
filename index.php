@@ -1,243 +1,263 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Meetup Planner</title>
-    <link rel="stylesheet" type="text/css" href=".style.css">
-</head>
-<body>
-
-<!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand text-white" href="#">Bootstrap 4</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Start Innovation Hub">
+    <title>Meetup Budget Planner</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body id="page-top">
     <!-- Navigation -->
-
-    <!-- Carousel Slider -->
-    <div id="carouselLogo" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselLogo" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselLogo" data-slide-to="1"></li>
-            <li data-target="#carouselLogo" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img class="d-block img-fluid" src="http://www.facenet.org/wp-content/themes/executive/assets/images/header.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://www.facenet.org/wp-content/themes/executive/assets/images/header.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://www.facenet.org/wp-content/themes/executive/assets/images/header.jpg" alt="First slide">
-            </div>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger text-main" href="#page-top">Events Planner</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-main" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-main" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-main" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-main" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-main margin-left-md" href="login.php">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-warning margin-left-md" href="signup.php">Register</a>
+            </li>
+          </ul>
         </div>
-        <a class="carousel-control-prev" href="#carouselLogo" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselLogo" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- Carousel Slider -->
+      </div>
+    </nav>
 
-    <!-- Card -->
-    <div class="container container mt-4 mb-5">
-        <h3 class="display-4 text-center"> Technologies </h3>
-        <hr class="bg-dark mb-4 w-25">
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+          <hr>
+          <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/350x250/c7c7c7/000.png" alt="Card image cap">
-                    <div class="card-block p-3">
-                        <h4 class="card-title">HTML</h4>
-                        <p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a href="#" class="btn btn-primary rounded-0 mb-2">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/350x250/c7c7c7/000.png" alt="Card image cap">
-                    <div class="card-block p-3">
-                        <h4 class="card-title">CSS</h4>
-                        <p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a href="#" class="btn btn-primary rounded-0 mb-2">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/350x250/c7c7c7/000.png" alt="Card image cap">
-                    <div class="card-block p-3">
-                        <h4 class="card-title">BOOTSTRAP</h4>
-                        <p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a href="#" class="btn btn-primary rounded-0 mb-2">Read More</a>
-                    </div>
-                </div>
-            </div>
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <hr class="light">
+            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
         </div>
-    </div>
-    <!-- Card -->
+      </div>
+    </section>
 
-    <div class="container mb-5">
+    <section id="services">
+      <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <h3 class="display-4">Products</h3>
-                <hr class="bg-dark w-25 ml-0">
-                <p class="lead">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
-                <p>
-                    When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-                <ul class="list-unstyled pl-4">
-                    <li><i class="fa fa-check"></i> Lorem Ipsum is simply dummy text</li>
-                    <li><i class="fa fa-check"></i> Lorem Ipsum is simply dummy text</li>
-                    <li><i class="fa fa-check"></i> Lorem Ipsum is simply dummy text</li>
-                </ul>
-                <a href="#" class="btn btn-outline-primary rounded-0"> Read More</a>
-            </div>
-            <div class="col-md-4 mt-5">
-                <img class="card-img-top" src="https://dummyimage.com/300x300/c7c7c7/000.png" alt="Card image cap">
-            </div>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="primary">
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Sturdy Templates</h3>
+              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+              <h3>Ready to Ship</h3>
+              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+              <h3>Up to Date</h3>
+              <p class="text-muted">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Made with Love</h3>
+              <p class="text-muted">You have to make your websites with love these days!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
     </div>
 
-    <div class="container pb-4">
-        <h3 class="display-4 text-center">Clients</h3>
-        <hr class="bg-dark w-25">
-        <div id="carouselLogo" class="carousel slide pt-3" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <ul class="list-inline row  mx-auto">
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                    </ul>
-                </div>
-                <div class="carousel-item">
-                    <ul class="list-inline row  mx-auto">
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                    </ul>
-                </div>
-                <div class="carousel-item">
-                    <ul class="list-inline row  mx-auto">
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                        <li class="col-md-4"><img class="d-block img-fluid" src="http://brix.io/assets/img/logo-bootstrap.png" alt="First slide"></li>
-                    </ul>
-                </div>
-            </div>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="primary">
+            <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
         </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white">
-
-        <!-- Social Icons -->
-        <div class="bg-primary">
-            <div class="container">
-                <div class="row py-4">
-                    <div class="col-md-6 col-lg-7">
-                        <h4 class="mb-0 white-text">Get connected with us on social networks!</h4>
-                    </div>
-                    <div class="col-md-6 col-lg-5 text-right">
-                        <a><i class="fa fa-facebook white-text mr-lg-4 fa-2x"> </i></a>
-                        <a><i class="fa fa-twitter white-text mr-lg-4 fa-2x"> </i></a>
-                        <a><i class="fa fa-google-plus white-text mr-lg-4 fa-2x"> </i></a>
-                        <a><i class="fa fa-linkedin white-text mr-lg-4 fa-2x"> </i></a>
-                        <a><i class="fa fa-instagram white-text mr-lg-4 fa-2x"> </i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Social Icons -->
-
-        <!-- Footer Links -->
-        <div class="container pt-5 pb-2">
-            <div class="row">
-
-                <div class="col-md-3 col-lg-4 col-xl-3">
-                    <h4>Company name</h4>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <p>
-                        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-                    </p>
-                </div>
-
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
-                    <h4>Products</h4>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <p><a href="#" class="text-white">Product-1</a></p>
-                    <p><a href="#" class="text-white">Product-2</a></p>
-                    <p><a href="#" class="text-white">Product-3</a></p>
-                    <p><a href="#" class="text-white">Product-4</a></p>
-                </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h4>Useful links</h4>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <p><a href="#" class="text-white">Home</a></p>
-                    <p><a href="#" class="text-white">About Us</a></p>
-                    <p><a href="#" class="text-white">Services</a></p>
-                    <p><a href="#" class="text-white">Contact</a></p>
-                </div>
-
-                <div class="col-md-4 col-lg-3 col-xl-3">
-                    <h4>Contact</h4>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <p><i class="fa fa-home mr-3"></i> Company Location</p>
-                    <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
-                    <p><i class="fa fa-phone mr-3"></i> + 98 765 432 11</p>
-                    <p><i class="fa fa-print mr-3"></i> + 98 765 432 10</p>
-                </div>
-
-            </div>
-        </div>
-        <!-- Footer Links-->
-
-        <hr class="bg-white mx-4 mt-2 mb-1">
-
-        <!-- Copyright-->
-        <div class="container-fluid">
-            <p class="text-center m-0 py-1">
-                © 2017 Copyright <a href="https://getbootstrap.com/" class="text-white">Bootstrap 4</a>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
             </p>
+          </div>
         </div>
-        <!-- Copyright -->
+      </div>
+    </section>
 
-    </footer>
-    <!-- Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-</body>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="/scrollreveal.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
 </html>
-    
-
-    
