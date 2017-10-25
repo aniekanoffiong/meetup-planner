@@ -12,6 +12,96 @@
 .padding-left-lg{padding-left:15px;}.padding-right-lg{padding-right:15px;}.padding-top-lg{padding-top:15px;}.padding-bottom-lg{padding-bottom:15px;}
 .padding-left-xl{padding-left:20px;}.padding-right-xl{padding-right:20px;}.padding-top-xl{padding-top:20px;}.padding-bottom-xl{padding-bottom:20px;}
 .padding-left-xxl{padding-left:25px;}.padding-right-xxl{padding-right:25px;}.padding-top-xxl{padding-top:25px;}.padding-bottom-xxl{padding-bottom:25px;}
+.margin-top-xxxl{margin-top:80px;}
 nav{background-color:#efefef!important;}
 .text-main{color:#f05f40!important;}
 .bg-main{background-color:#f05f40!important;}
+
+/* Login Page Styling */
+.form-signin {
+    display:block;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0 0 3px 3px #888;
+      -webkit-box-shadow: 0 0 3px 3px #888;
+      box-shadow: 0 0 3px 3px #888;
+    border-radius:2px;
+  }
+  .main{
+      padding: 38px;
+  }
+  .social-box{
+    margin: 0 auto;
+    padding: 38px;
+    border-bottom:1px #ccc solid;
+  }
+  .social-box a{
+    font-weight:bold;
+    font-size:18px;
+    padding:8px;
+  }
+  .social-box a i{
+    font-weight:bold;
+    font-size:20px;
+  }
+  .heading-desc{
+      font-size:20px;
+      font-weight:bold;
+      padding:38px 38px 0px 38px;
+      
+  }
+  .form-signin .form-signin-heading,
+  .form-signin .checkbox {
+    margin-bottom: 10px;
+  }
+  .form-signin .checkbox {
+    font-weight: normal;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: 20px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .login-footer{
+      background:#f0f0f0;
+      margin: 0 auto;
+      border-top: 1px solid #dadada;
+      padding:20px;
+  }
+  .login-footer .left-section a{
+      font-weight:bold;
+      color:#8a8a8a;
+      line-height:19px;
+  }
+  .mg-btm{
+      margin-bottom:20px;
+  }
+
+  .auth-pages {
+    margin-top: 80px;
+  }
+
+  .centralize {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+  .bordered {
+    border: 1px solid #ededed;
+  }
