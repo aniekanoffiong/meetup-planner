@@ -44,7 +44,7 @@
               <a class="nav-link text-main margin-left-md" href="login.php">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-warning margin-left-md" href="signup.php">Register</a>
+              <a class="nav-link btn bg-main margin-left-md" href="signup.php">Register</a>
             </li>
           </ul>
         </div>
