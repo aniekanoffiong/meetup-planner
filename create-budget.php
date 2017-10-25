@@ -1,6 +1,17 @@
 <?php
+    require_once 'include/config.php';    
+    require_once 'class/staticFunc.php';
+
     if (isset($_POST['create_budget'])) {
-        
+        $event_name = filter_var($_POST['title'], FILTER_SANITIZE_STRING);
+        $date = filter_var($_POST['date'], FILTER_SANITIZE_STRING);
+
+        $sql = 'insert into budgets values(:id, :user_id, :event_name, :date)';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([':id' => NULL, ':user_id' => 1, ':event_name' => $event_name, ':date' => $date]);
+        if ($stmt->rowCount() > 0) {
+            staticFunc::redirect('/budget-items.php');
+        }
     }
 ?>
 

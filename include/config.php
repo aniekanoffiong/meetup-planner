@@ -3,6 +3,8 @@
 /**	Requiring Database Constants set in seperate file 
 *	outside of www folder
 */
+	require 'session.php';
+	
 	$config = require_once('db.php');
 
 	/**	Creating PDO parameters
