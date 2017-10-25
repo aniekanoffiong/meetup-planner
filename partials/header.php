@@ -32,16 +32,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-main" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger text-main" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger text-main" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-main" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger text-main" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-main" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger text-main" href="create-budget.php">Create Budgets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-main margin-left-md" href="login.php">Login</a>

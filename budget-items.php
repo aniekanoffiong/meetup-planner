@@ -17,27 +17,28 @@
 	<div class="row">
 		<div class="bordered centralize">
             <div class="panel panel-info">
-                <div class="panel-heading"><?= $budget->event_name; ?></div>
+                <h3 class="panel-header text-center">New Event</h3>
+                <hr />
             </div>
             <ul class="list-group">
-                <li class="list-group-item"><input type="checkbox">Venue</li>
-                <li class="list-group-item"><input type="checkbox">Chairs</li>
-                <li class="list-group-item"><input type="checkbox">Tables</li>
-                <li class="list-group-item"><input type="checkbox">Projector/Screen</li>
-                <li class="list-group-item"><input type="checkbox">Power</li>
-                <li class="list-group-item"><input type="checkbox">Sound</li>
-                <li class="list-group-item"><input type="checkbox">Internet</li>
-                <li class="list-group-item"><input type="checkbox">T-Shirt</li>
-                <li class="list-group-item"><input type="checkbox">Photography</li>
-                <li class="list-group-item"><input type="checkbox">Video Coverage</li>
-                <li class="list-group-item"><input type="checkbox">Food</li>
-                <li class="list-group-item"><input type="checkbox">Snack</li>
-                <li class="list-group-item"><input type="checkbox">Drinks</li>
-                <li class="list-group-item"><input type="checkbox">Accommodation</li>
-                <li class="list-group-item"><input type="checkbox">Transportation</li>
-                <li class="list-group-item"><input type="checkbox">Security</li>
-                <li class="list-group-item"><input type="checkbox">Backdrop/Banner/Flex</li>
-                <li class="list-group-item"><input type="checkbox">Sticker/Poster/Hand bills/Tags</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Venue</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Chairs</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Tables</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Projector/Screen</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Power</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Sound</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Internet</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">T-Shirt</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Photography</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Video Coverage</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Food</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Snack</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Drinks</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Accommodation</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Transportation</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Security</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Backdrop/Banner/Flex</li>
+                <li class="list-group-item"><input type="checkbox" class="margin-right-md">Sticker/Poster/Hand bills/Tags</li>
             </ul>
         </div>
 	</div>

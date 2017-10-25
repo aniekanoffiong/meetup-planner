@@ -3,9 +3,9 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+          <h1 id="homeHeading">YOUR FAVOURITE MEETUPS BUDGETING SITE</h1>
           <hr>
-          <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+          <p>Meetup planner is a money management platform for community organizers. The platform gives control and flexibility to customize their budget as needed, and delivers insightful, actionable advise to help plan an event.</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
@@ -17,7 +17,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">We've got what you need!</h2>
             <hr class="light">
-            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <p class="text-faded">Meetup planner is a money management platform for community organizers. The platform gives control and flexibility to customize their budget as needed, and delivers insightful, actionable advise to help plan an event.</p>
             <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
@@ -38,29 +38,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+              <h3>Sturdy Vendors</h3>
+              <p class="text-muted">Our vendors are updated regularly so they don't break.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Ready to Ship</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+              <h3>Ready to Plan</h3>
+              <p class="text-muted">You can plan your events using this platform</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
               <h3>Up to Date</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
+              <p class="text-muted">We update services to keep things fresh.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
               <h3>Made with Love</h3>
-              <p class="text-muted">You have to make your websites with love these days!</p>
+              <p class="text-muted">You have to make your budgets realistic.</p>
             </div>
           </div>
         </div>
@@ -164,11 +164,11 @@
       </div>
     </section>
 
-    <div class="call-to-action bg-dark">
+    <!-- <div class="call-to-action bg-dark">
       <div class="container text-center">
         <h2>Free Download at Start Bootstrap!</h2>
         <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
-    </div>
+    </div> -->
 
 <?php include 'partials/footer.php'; ?>
